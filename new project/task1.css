@@ -1,0 +1,201 @@
+#container1{
+    background-image: url(Images/photo-1459666644539-a9755287d6b0.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 16rem;
+    left: 37.5rem;
+}
+#container2{
+    background-image: url(Images/Background.png);
+    height: 110vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.carosal-box{
+    height: 30vh;
+    width: auto;
+    background-color: rgba(40, 58, 88, 0.664);
+    position: relative;
+    top: 78vh;
+    display: flex;
+    align-items: center;
+
+}
+#container1 a{
+    color: aliceblue;
+}
+.textalign a{
+    color: rgb(65, 85, 129);
+    font-size: larger;
+    font-weight: bold;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background:transparent;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 50%;
+  height: 60%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+}
+
+#container3{
+    height: 90vh;
+    /* background-color: cornflowerblue; */
+}
+
+.head{
+    height: 25vh;
+    background: #ffff;
+}
+
+#mountains{
+    overflow: hidden;
+    background: rgb(65, 85, 129);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+#mountains a{
+    color: rgb(189, 186, 186);
+    text-align: center;
+    padding: 40px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100px;
+    position: relative;
+    left: 14rem;
+}
+#mountains .animation{
+    color: rgb(65, 85, 129);
+    background-color: rgb(189, 186, 186);
+}
+#mountains a:hover{
+    color: rgb(65, 85, 129);
+    background-color: rgb(189, 186, 186);
+}
+
+.shedule{
+    height: 60vh;
+    /* background-color: aqua; */
+    background-image: url(Images/Backgroundshedule1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.box{
+
+    padding-left: 2rem;
+    padding-top: 2px;
+    padding-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.664);
+    height: 24vh;
+    width: 20rem;
+    position: relative;
+    top: 3rem;
+    left: 18rem;
+    
+
+}
+.box h1{
+    color: rgb(65, 85, 129);
+}
+footer{
+    background: rgb(65, 85, 129);
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textalign{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(134, 146, 170);
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+#text2{
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 10px;
+    color: rgb(134, 146, 170);
+}
+footer .logo{
+    opacity: 0.5;
+}
+nav{
+    height: 6vh;
+    position: sticky;
+}
+.num{
+    font-size: 11rem;
+    font-weight: bolder;
+    position: relative;
+    left: 25rem;
+    color: rgb(134, 146, 170);
+}
+.climb{
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: -6rem;
+    left: 37rem;
+    color: rgb(54, 72, 112);
+}
+.script{
+    font-size: medium;
+    height: 10rem;
+    width: 40rem;
+    position: relative;
+    top: -7rem;
+    left: 45rem;
+}
